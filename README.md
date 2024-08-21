@@ -13,7 +13,7 @@ struct ContentView : View {
     var body: some View {
         Button(
             action: {
-            
+                openWindow()
             }
         ) {
             Text("Open Window")
